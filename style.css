@@ -11,9 +11,7 @@ body {
 }
 
 .container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  width: 100%;
   background-color: white;
   padding: 20px;
 }
@@ -53,6 +51,7 @@ body {
   border-right: 2px solid lightgray;
   height: 200px;
   width: 100%;
+  background-repeat: no-repeat;
   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxMH04YK-nga1hsBafFJwcJTXUyMGijHV1OAJPFmQFrrseItoJNwtNS_s&s=10');
 }
 
@@ -68,15 +67,15 @@ h2 {
 
 .Penulis a{
   transition: 0.3s;
-  margin-top: 0;
+  
 }
-J
+
 .Penulis a:hover{
   display: inline-block;
-  background-color: blue;
-  color: white;
+  background-color: lightblue;
+  color: black;
   padding: 1px 2px;
-  border-radius: 15px;
+  border-radius: 10px;
   transition: 0.3s;
   transform: scale(1.1);
   font-style: underline;
@@ -95,7 +94,7 @@ font-family: Arial;
   background-color: lightgray;
   color: white;
   font-size: 12px;
-  width: 50%;
+  width: 100%;
 }
 
 .footer {
