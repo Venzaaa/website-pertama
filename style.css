@@ -22,14 +22,12 @@ body {
 }
 
 .header ul li{
-  display: flex;
-  flex-direction: flex-end;
-  gap: 20px;
   padding-top: 10px;
 }
 
 .header a{
   color: salmon;
+  margin-right: 5px;
   text-decoration: none;
   font-size: 8px;
   transition: 0.3s;
@@ -65,23 +63,28 @@ body {
   }
 }
 
-h2 {
-  display: inline-block;
+.main {
+  width: 60%;
+  float: left;
+  border: box-sizing;
+}
+
+.main h2 {
   font-size: 18px;
   padding-top: 5px;
 }
 
-.Penulis {
+.main .Penulis {
   font-size: 8px;
+  margin-top: -8px;
 }
 
-.Penulis a{
+.main .Penulis a{
   transition: 0.3s;
   
 }
 
-.Penulis a:hover{
-  display: inline-block;
+.main .Penulis a:hover{
   background-color: lightblue;
   color: black;
   padding: 1px 2px;
@@ -91,11 +94,45 @@ h2 {
   font-style: underline;
 }
 
-.isi p {
+.main p {
   font-size: 12px;
   font-family: Arial;
   padding-top: 5px;
+  text-align: justify;
 } 
+
+.sidebar {
+  width: 35%;
+  float: right;
+  border: box-sizing;
+}
+
+.sidebar h3{
+  font-size: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.sidebar p{
+  font-size: 12px;
+  font-family: Arial;
+  text-align: justify;
+  hyphens: auto;
+  padding-top: 2px;
+  padding-bottom: 3px;
+
+}
+
+.profils {
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('images.jpg');
+  float: left;
+  margin-top: 5px;
+  margin-right: 5px;
+}
 
 .footer .copyright{
   padding-left: auto;
@@ -112,4 +149,18 @@ h2 {
   flex-direction: center;
   justify-content: center;
   text-align: center;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
 }
