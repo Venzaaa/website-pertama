@@ -45,14 +45,24 @@ body {
 }
 
 .image {
-  display: inline-block;
+  /* display: inline-block; */
   margin-top: 10px;
   border-radius: 10px;
   border-right: 2px solid lightgray;
   height: 200px;
   width: 100%;
+  max-width: 600px;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxMH04YK-nga1hsBafFJwcJTXUyMGijHV1OAJPFmQFrrseItoJNwtNS_s&s=10');
+}
+
+@media (min-width: 768px) {
+  .image {
+    height: 300px;
+  }
 }
 
 h2 {
@@ -83,7 +93,7 @@ h2 {
 
 .isi p {
   font-size: 12px;
-font-family: Arial;
+  font-family: Arial;
   padding-top: 5px;
 } 
 
