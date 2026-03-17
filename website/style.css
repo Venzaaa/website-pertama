@@ -70,7 +70,7 @@ body {
 }
 
 .main h2 {
-  font-size: 18px;
+  font-size: 16px;
   padding-top: 5px;
 }
 
@@ -107,8 +107,8 @@ body {
   border: box-sizing;
 }
 
-.sidebar h3{
-  font-size: 18px;
+.sidebar h2{
+  font-size: 16px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -118,8 +118,8 @@ body {
   font-family: Arial;
   text-align: justify;
   hyphens: auto;
-  padding-top: 2px;
-  padding-bottom: 3px;
+  padding-top: 5px;
+  padding-bottom: 1px;
 
 }
 
@@ -130,7 +130,7 @@ body {
   background-repeat: no-repeat;
   background-image: url('images.jpg');
   float: left;
-  margin-top: 5px;
+  margin-top: 8px;
   margin-right: 5px;
 }
 
