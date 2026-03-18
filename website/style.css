@@ -10,11 +10,63 @@ body {
   background-color: gray;
 }
 
+
 .container {
   width: 100%;
+  margin-top: 35px;
   background-color: white;
-  padding: 20px;
+  padding: 40px;
 }
+
+.nav-bar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 35px;
+  background-color: lightblue;
+}
+
+.instagram {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: right;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1nITa1rsnhQMsL8wOvognYs-Pnz1X20tbGhUDglTEvxT6mh7TJbXlyO4&s=10');
+  margin-top: 10%;
+  margin-right: -1%;
+  text-indent: -9999px;
+  
+}
+
+@media (min-width: 768px) {
+  .instagram {
+    width: 60px;
+    height: 60px;
+    margin-top: 1.4%;
+    margin-right: 41.5%;
+  }
+}
+
+.instagram a {
+  display: block;
+  padding: 15px 5px;
+  margin-top: 10px;
+  margin-left: 8px;
+  font-size: 10px;
+}
+
+@media (min-width: 768px) {
+  .instagram a{
+    padding: 15px 5px;
+    margin-top: 18px;
+    margin-left: 12px;
+    font-size: 12px;
+  }
+}
+
 
 .container .judul {
   font-size: 32px;
@@ -59,6 +111,7 @@ body {
 
 @media (min-width: 768px) {
   .image {
+    margin-top: 8px;
     height: 300px;
   }
 }
@@ -137,7 +190,7 @@ body {
 .footer .copyright{
   padding-left: auto;
   padding-right: auto;
-  padding: 8px;
+  padding: 20px;
   background-color: lightgray;
   color: white;
   font-size: 12px;
